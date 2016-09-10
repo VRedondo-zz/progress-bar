@@ -1,0 +1,26 @@
+{
+  "name": "progress-bar",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VRedondo/progress-bar.git"
+  },
+  "author": "Victor Redondo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VRedondo/progress-bar/issues"
+  },
+  "homepage": "https://github.com/VRedondo/progress-bar#readme",
+  "devDependencies": {
+    "connect-livereload": "^0.5.4",
+    "express": "^4.14.0",
+    "gulp": "^3.9.1",
+    "support-for": "^1.0.6",
+    "tiny-lr": "^0.2.1"
+  }
+}

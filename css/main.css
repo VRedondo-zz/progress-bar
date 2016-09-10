@@ -1,0 +1,75 @@
+/*Overwrite Bootstrap CSS*/
+.modal-content{
+    border-radius: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #000;
+}
+
+.modal-header{
+    background-color: #000;
+    color: #fff;
+    border-radius: 10px;
+    padding: 5px 15px;
+}
+
+.progress-bar{
+    position:relative;
+    background-color: #4CAF50;
+    max-width: 100%;
+}
+
+.progress-bar label{
+    position: absolute;
+    color: #000;
+    top: 100%;
+    right: -10%;
+    text-align: center;
+}
+
+.progress-bar label:before{
+    content: '';
+    height: 0;
+    width: 0;
+    border:5px solid transparent;
+    display: block;
+    margin: 0 auto;
+    border-bottom-color: #000;
+}
+
+/* Site CSS */
+.progress-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 15px 60px;
+}
+
+.progress__label{
+    padding-right: 5px;
+}
+
+.progress__bar{
+    display: inline-block;
+    width: 50%;
+    margin: 0;
+    vertical-align: middle;
+    overflow: visible;
+}
+
+.progress__target{
+    border: 1px solid #000;
+    background-color: #ccc;
+    color: #fff;
+    padding: 10px 20px;
+    max-width: 85px;
+    text-align: center;
+}
+
+.progress__info-message{
+    width: 100%;
+    padding-top: 20px;
+}
