@@ -1,4 +1,12 @@
 /*Overwrite Bootstrap CSS*/
+.modal-dialog{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+}
+
 .modal-content{
     border-radius: 10px;
     background-color: #f1f1f1;
